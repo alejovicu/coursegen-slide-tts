@@ -1,2 +1,8 @@
 # coursegen-slide-tts
-POC for AI course generator based in
+
+How to check the docs:
+
+```bash
+pip install mkdocs
+mkdocs serve
+```

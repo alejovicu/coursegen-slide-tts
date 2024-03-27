@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-03-27T08:33:53.688Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.1.0 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="jx0XwwYz6iYliFztdJHa" version="24.1.0" type="device">
+  <diagram name="Page-1" id="EumaQfmWTa_bgZPbekXR">
+    <mxGraphModel dx="954" dy="727" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;TaS (file)&lt;/h1&gt;&lt;p&gt;Training as code file&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="250" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-2" value="tas api proccessor" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="255" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="280" as="sourcePoint" />
+            <mxPoint x="200" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-4" value="tts api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="G4MsKTibPmjkUyLIS7UG-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="270" as="sourcePoint" />
+            <mxPoint x="380" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-6" value="slide gen backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="G4MsKTibPmjkUyLIS7UG-2" target="G4MsKTibPmjkUyLIS7UG-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-8" value="video render api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="G4MsKTibPmjkUyLIS7UG-2" target="G4MsKTibPmjkUyLIS7UG-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-11" value="Extract contents (audio and slide definitions) from TaS file and orchestrate generation of the course.&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="190" y="180" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-12" value="Converts text into audio clips." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="170" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-13" value="Converts code into slides." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="270" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="G4MsKTibPmjkUyLIS7UG-14" value="Merges audio clips and slides generating videos (NTH: and subtitles)." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="360" width="170" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

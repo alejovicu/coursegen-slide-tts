@@ -2,4 +2,5 @@ site_name: Course Generator POC
 site_url: http://coursegen-poc.com/
 nav:
   - Home: index.md
+  - Text to Speech API: api-tts.md
 theme: readthedocs
