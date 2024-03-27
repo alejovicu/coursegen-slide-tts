@@ -1,0 +1,5 @@
+site_name: Course Generator POC
+site_url: http://coursegen-poc.com/
+nav:
+  - Home: index.md
+theme: readthedocs
